@@ -1,0 +1,105 @@
+*{
+box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 14px;
+}
+body{
+    background-image: url(./media/background.svg);
+    background-repeat:no-repeat;
+    background-color: f8f8ff;
+    display: flex;
+    flex-direction: column;
+    line-height: 6rem;
+    padding: 5rem 10rem;
+    position: relative;
+}
+
+.hero{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 70rem;
+    width:70rem;
+    z-index: 1;
+}
+.first-heading{
+    margin:6rem 0 0;
+    font-size: 6rem;
+    line-height: 6rem;
+}
+h1{
+    width: 33rem;
+    color: #18214d;
+}
+.cohort{
+    color: #3e4462;
+    max-width: 42rem;
+    line-height: 2rem;
+    margin-top: 2.2rem;
+    font-size: 1.5rem;
+}
+button{
+    font-size: 1.2rem;
+    height: 4rem;
+    width: 12rem;
+    border-radius: 5px;
+    border: none;
+    background-color:#1b734f;
+    color: #fdfff1;
+}
+.section-one{
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.section-one img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.section-two{
+    margin-top: 18%;
+}
+.second-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-heading{
+    font-size: 4rem;
+    line-height: 4rem;
+}
+.second-h2{
+    color: #3e4462;
+    max-width: 28rem;
+    line-height: 2rem;
+    margin-top: 2.2rem; 
+    font-size: 1.2rem;
+}
+.section-three{
+display: flex;
+align-items: center;
+}
+.flex-containers{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.flex-all{
+    display: flex;
+    flex-direction: column;
+    left: 2rem;
+    max-width: 20rem;
+    line-height: 2rem;
+    color: #3e4462;
+}
+.first-paragraphs{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.second-paragraphs{
+    font-size: 1rem;
+}
